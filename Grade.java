@@ -13,7 +13,7 @@ public class Grade {
         System.out.println("Letter grade: " + gradeFunction(avg));
     }
 
-    static char gradeFunction(double avg) {
+    static char gradeFunctions(double avg) {
         if (avg >= 90) return 'A';
         else if (avg >= 80) return 'B';
         else if (avg >= 70) return 'C';
